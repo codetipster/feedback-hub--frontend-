@@ -1,9 +1,17 @@
 import React from 'react';
 
+import { Navbar } from './components';
+
 const App = () => {
   return (
-    <div>
-      <h1>Freetech Hub</h1>
+    <div className="app">
+      <div className="navbar">
+        <Navbar />
+      </div>
+
+      <div className="main"></div>
+
+      <div className="footer"></div>
     </div>
   );
 };
